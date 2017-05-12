@@ -1,0 +1,229 @@
+.navbar {
+	background-color: #cc0066;
+	/*color: rgba(204,0,102,0.6);*/
+	border-color: #b30047; /*#660033;*/
+}
+.navbar .navbar-brand {
+	color: rgba(255, 255, 255, 0.6);	
+}
+.navbar-default .navbar-nav > li > a {
+	color: rgba(255, 255, 255, 0.6);	
+}
+.navbar-default .navbar-toggle {
+	border-color: rgba(255, 255, 255, 0.6);
+	background-color: #b7005b;
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-color: #660033;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: #b7005b;
+	color: rgba(255, 255, 255, 0.6);
+}
+.kit-apps .col-md-2.hidden-col {
+    visibility: hidden;
+    
+}
+.kit-apps {
+	margin-top: 50px;
+}
+.kit-apps li {
+	font-family: sans-serif;
+	text-rendering: optimizeLegibility;
+	font-weight: 800;
+	color: #13a6ea; 
+	background: #cc0066; 
+	height: 200px;
+	padding: 10px;
+}
+.kit-apps p {
+	font-weight: normal;
+	font-size: 11px;
+	color: white;
+}
+.kit-apps a {
+	color: #13a6ea; 
+	text-decoration: none;
+}
+.kit-apps a:hover {
+	text-decoration: none;
+
+}
+.kit-apps .col-md-2 li{
+	margin-bottom: 10px;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.5s;
+	text-align: left;
+}
+.kit-apps .col-md-2 li:hover {
+	-webkit-transform:scale(1.05);
+	-webkit-box-shadow:0px 0px 10px #ccc;	
+}
+.footer-section {
+	background: #cc0066; /*#1566b2;*/
+	color: white;
+	/*opacity: 0.6;*/
+	height: 200px;
+	padding-top: 45px;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+.footer-section a{
+	color: white;
+}
+.footer-section ul li a:hover {
+	color: white;
+}
+.footer-section .fa{
+	font-size: 20px;
+}
+.fa-arrow-circle-o-right {
+	color: #8CC739;
+}
+.fa-gears {
+	color: #8CC739;
+}
+.fa-book {
+	color: #8CC739;
+}
+.fa-group {
+	color: #408000; /*#8CC739;*/
+}
+.fa-laptop {
+	color: #8CC739;
+}
+.fa-angle-down {
+	color: white;
+}
+a.header-text, a.header-text:hover, a.header-text:focus, a.header-text:active {
+	text-decoration: none;
+	color: purple;
+}
+h4.sub-header-text {
+	color: white;
+}
+.about-section h1{
+	color: purple;
+}
+.services-section h1{
+	color: purple;
+}
+.contact-section h1{
+	color: purple;
+}
+.meetup-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #66cc00;
+	background-image: linear-gradient(#66cc00, green);
+	font-family: "AR Berkley";  
+	color: #ff0066;
+}
+.workspace-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #262626;
+	background-image: linear-gradient(#262626, black);
+	font-family: "AR Berkley";  
+	color: #13a6ea; /*#ff0066;*/
+}
+.learn-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #0099ff;
+	background-image: linear-gradient(#0099ff, blue);
+	font-family: "AR Berkley";  
+	color: purple; /*#ff0066;*/
+}
+.build-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #ff0066;
+	background-image: linear-gradient(#ff0066, #1a000a);
+	font-family: "AR Berkley";  
+	color: #ffccff; /*#ff0066;*/
+}
+.html-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #dff0d8;
+	/*background-image: linear-gradient(#dff0d8, #1a000a);*/
+	font-family:"Roboto Slab"; /*"AR Berkley";*/  
+	color: #3c763d; 
+}
+.html-section p{
+	font-family: "Roboto Slab";
+	color: black; /*#3c763d;*/
+}
+.css-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #d9edf7;
+	/*background-image: linear-gradient(#d9edf7, #1a000a);*/
+	font-family:"Roboto Slab"; /*"AR Berkley";*/  
+	color: #31708f; 
+}
+.css-section p{
+	font-family: "Roboto Slab";
+	color: black; /*#3c763d;*/
+}
+.js-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #d9edf7;
+	/*background-image: linear-gradient(#d9edf7, #1a000a);*/
+	font-family:"Roboto Slab"; /*"AR Berkley";*/  
+	color: #8a6d3b; 
+}
+.js-section p{
+	font-family: "Roboto Slab";
+	color: black; /*#3c763d;*/
+}
+.android-section {
+	height: 100%;
+	padding-top: 150px;
+	background-color: #f2dede;
+	/*background-image: linear-gradient(#d9edf7, #1a000a);*/
+	font-family:"Roboto Slab"; /*"AR Berkley";*/  
+	color: #a94442; 
+}
+.android-section p{
+	font-family: "Roboto Slab";
+	color: black; /*#3c763d;*/
+}
+.redirect-icon {
+	background-color: blue;
+	border-radius: 10px;
+	padding-left: 2px;
+}
+.hidden-lg {
+	display: none;
+}
+
+@media(max-width: 767px){
+    .learn-section {
+        padding-top: 70px;
+    }
+	.html-section {
+		padding-top: 90px;
+	}
+	.css-section {
+		padding-top: 90px;
+	}
+	.js-section {
+		padding-top: 90px;
+	}
+	.android-section {
+		padding-top: 90px;
+	}
+    .redirect-icon.hidden-sm {
+    	display: none;
+    }
+    .hidden-lg {
+    	display: block;
+    }
+}

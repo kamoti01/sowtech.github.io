@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+@media(min-width:768px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .header-text h1{
+    font-family: "Roboto condensed", helvetica, arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size:6em;
+    font-weight:800;
+    color: purple;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #0099ff; /*#66ccff; /*#fff;*/
+    /*background-image: url('../images/shrub.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;*/
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    font-family: "Roboto Slab";
+    /*background: #66ccff;*/
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    /*background: #fff;*/
+    background: #0099ff; /*#66ccff;*/
+    font-family: "Roboto Slab";
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    font-family: "Roboto Slab";
+    /*background: #66ccff;*/
+}
+@media(max-width: 767px){
+    .intro-section {
+        height: 200%;
+    }
+    .kit-apps .col-md-2.hidden-col {
+        display: none;  
+    }
+    .kit-apps li {
+        width: initial;
+        border-radius: 10px;
+    }
+    .about-section {
+        height: 100%;
+        padding-top: 90px;
+    }
+    .services-section {
+        padding-top: 100px;
+    }
+}
